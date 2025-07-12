@@ -3,6 +3,20 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+### ℹ️ Contexto
+
+Eu tinha um problema recorrente no PPGE: recebia uma **relação de alunos** com os **nomes e matrículas**, mas os **CPFs precisavam ser coletados manualmente** depois, um por um. Para **adiantar esse processo** e evitar retrabalho na hora de gerar declarações personalizadas, criei esse sistema simples que automatiza tudo.
+
+Ele me permite:
+
+* Selecionar um modelo de declaração `.docx`
+* Ler automaticamente os nomes e matrículas da relação
+* Coletar os CPFs direto pelo terminal
+* E gerar os arquivos prontos em segundos, com tudo nomeado e organizado
+
+---
+
+
 Este é um script em Python desenvolvido para automatizar a geração de declarações personalizadas para os(as) alunos(as) de uma turma, utilizando um modelo `.docx` e uma relação de alunos extraída de outro documento Word.
 
 Ideal para situações em que é necessário gerar rapidamente várias declarações com informações como **nome**, **CPF** e **matrícula** de forma automatizada.
